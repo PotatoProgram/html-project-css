@@ -16,10 +16,21 @@ h2 {
     color:rgb(78, 7, 7);
 }
 
+.image {
+    /* change 2: all images in the table have their
+     <td> element turned to a color similar to the
+      background of the */
+    background-color: rgb(14, 12, 34);;
+}
+
 table, th, tr, td{
     border-width: 2px;
     border-color: black;
     border-style: solid;
     background-color: slategray;
     margin: 0 auto;
+}
+
+p.credit {
+    text-align: center;
 }
