@@ -5,7 +5,10 @@
 }
 
 body {
-    background-color: gray;
+    /*change 3: implement gradient in main 
+    background*/
+    background-image: linear-gradient(white,
+     gray);
 }
 
 hr {
