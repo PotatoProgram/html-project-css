@@ -19,12 +19,6 @@ h2 {
     color:rgb(78, 7, 7);
 }
 
-.image {
-    /* change 2: all images in the table have their
-     <td> element turned to a color similar to the
-      background of the */
-    background-color: rgb(14, 12, 34);;
-}
 
 table, th, tr, td{
     border-width: 2px;
@@ -32,6 +26,19 @@ table, th, tr, td{
     border-style: solid;
     background-color: slategray;
     margin: 0 auto;
+}
+
+table {
+    /*change 4: gradient of a slightly
+     different color in the table */
+    background-image: linear-gradient(to right, , slategray);
+}
+
+.image {
+    /* change 2: all images in the table have their
+     <td> element turned to a color similar to the
+      background of the */
+    background-color: rgb(14, 12, 34);
 }
 
 p.credit {
