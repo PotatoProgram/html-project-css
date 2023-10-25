@@ -12,8 +12,9 @@ body {
 }
 
 hr {
-    /*need to figure out how to change the color
-    here*/
+    background-color: maroon;
+    height: 1px;
+    border-style: none;
 }
 
 h2 {
