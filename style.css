@@ -7,12 +7,13 @@
 body {
     /*change 3: implement gradient in main 
     background*/
-    background-image: linear-gradient(white,
+    background-image: linear-gradient(rgb(190, 65, 65),
      gray);
 }
 
 hr {
-    background-color: black;
+    /*need to figure out how to change the color
+    here*/
 }
 
 h2 {
@@ -24,14 +25,17 @@ table, th, tr, td{
     border-width: 2px;
     border-color: black;
     border-style: solid;
-    background-color: slategray;
     margin: 0 auto;
 }
 
 table {
     /*change 4: gradient of a slightly
      different color in the table */
-    background-image: linear-gradient(to right, , slategray);
+    background-image: linear-gradient(grey, 
+    slategrey);
+    /*change 5: implement minor drop shadow on table 
+    */
+    filter: drop-shadow(2px 2px black);
 }
 
 .image {
