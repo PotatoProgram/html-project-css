@@ -43,6 +43,8 @@ table {
      <td> element turned to a color similar to the
       background of the */
     background-color: rgb(14, 12, 34);
+    /*TODO: find a way to add a drop shadow here 
+    without making it look awful*/
 }
 
 p.credit {
